@@ -37,6 +37,7 @@ namespace pryAliagaSP3
             // establecer el estado inicial de todos los componentes de la interfaz
             InicializarInterfaz();
 
+
         }
         private void InicializarInterfaz()
         {
@@ -45,14 +46,56 @@ namespace pryAliagaSP3
             txtCantidadTurnos.Clear();
             txtAñoAntiguo.Clear();
             txtCantidadDominio.Clear();
+            txtNumeroTurno.Focus();
+            btnRegistrar.Enabled = false;
+            btnConsultar.Enabled = false;   
+            txtDominio.Enabled = false; 
+            nudAñoFabricacion.Enabled = false;
+            txtTitular.Enabled = false; 
         }
         private void LimpiarControles()
         {
-            txtDominio.Clear(); 
+            txtDominio.Clear();
             txtNumeroTurno.Clear();
             txtTitular.Clear();
             nudAñoFabricacion.Value = 2022;
+            txtNumeroTurno.Focus();
         }
 
+        private void btnRegistrar_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void txtNumeroTurno_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // sin NO es un dígito y NO es Backspace (para borrar)
+            if (!(Char.IsDigit(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
+            {
+                e.Handled = true; // borrar la tecla ingresada
+            }
+        }
+
+        private void txtDominio_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // usamos los métodos de la clase 'Char', (IsLower y ToUpper)
+            if (Char.IsLower(e.KeyChar)) // es una minúscula ?
+            {
+                e.KeyChar = Char.ToUpper(e.KeyChar); // convertir a mayúscula
+            }
+            // no es ni letra ni número y es distinto de Backspace ?
+            if (!Char.IsLetterOrDigit(e.KeyChar) && e.KeyChar != (char)Keys.Back)
+            {
+                e.Handled = true; // borrar la tecla
+            }
+        }
+
+        private void txtDominio_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
+
+
+

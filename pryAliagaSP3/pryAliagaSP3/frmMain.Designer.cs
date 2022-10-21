@@ -105,6 +105,7 @@
             this.btnRegistrar.TabIndex = 5;
             this.btnRegistrar.Text = "&Registrar";
             this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // txtTitular
             // 
@@ -120,6 +121,7 @@
             this.txtNumeroTurno.Name = "txtNumeroTurno";
             this.txtNumeroTurno.Size = new System.Drawing.Size(77, 20);
             this.txtNumeroTurno.TabIndex = 7;
+            this.txtNumeroTurno.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNumeroTurno_KeyPress);
             // 
             // txtDominio
             // 
@@ -128,6 +130,8 @@
             this.txtDominio.Name = "txtDominio";
             this.txtDominio.Size = new System.Drawing.Size(111, 20);
             this.txtDominio.TabIndex = 8;
+            this.txtDominio.TextChanged += new System.EventHandler(this.txtDominio_TextChanged);
+            this.txtDominio.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDominio_KeyPress);
             // 
             // nudAñoFabricacion
             // 
@@ -247,7 +251,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(630, 450);
             this.Controls.Add(this.mrcEstadisticas);
             this.Controls.Add(this.mrcRegistroTurnos);
             this.Controls.Add(this.btnConsultar);

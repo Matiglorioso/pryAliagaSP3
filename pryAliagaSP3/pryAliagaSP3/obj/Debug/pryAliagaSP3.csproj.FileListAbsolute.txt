@@ -1,0 +1,11 @@
+C:\Users\Alumno\Source\Repos\Matiglorioso\pryAliagaSP3\pryAliagaSP3\pryAliagaSP3\bin\Debug\pryAliagaSP3.exe.config
+C:\Users\Alumno\Source\Repos\Matiglorioso\pryAliagaSP3\pryAliagaSP3\pryAliagaSP3\bin\Debug\pryAliagaSP3.exe
+C:\Users\Alumno\Source\Repos\Matiglorioso\pryAliagaSP3\pryAliagaSP3\pryAliagaSP3\bin\Debug\pryAliagaSP3.pdb
+C:\Users\Alumno\Source\Repos\Matiglorioso\pryAliagaSP3\pryAliagaSP3\pryAliagaSP3\obj\Debug\pryAliagaSP3.csproj.AssemblyReference.cache
+C:\Users\Alumno\Source\Repos\Matiglorioso\pryAliagaSP3\pryAliagaSP3\pryAliagaSP3\obj\Debug\pryAliagaSP3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\Source\Repos\Matiglorioso\pryAliagaSP3\pryAliagaSP3\pryAliagaSP3\obj\Debug\pryAliagaSP3.frmAutoTest.resources
+C:\Users\Alumno\Source\Repos\Matiglorioso\pryAliagaSP3\pryAliagaSP3\pryAliagaSP3\obj\Debug\pryAliagaSP3.Properties.Resources.resources
+C:\Users\Alumno\Source\Repos\Matiglorioso\pryAliagaSP3\pryAliagaSP3\pryAliagaSP3\obj\Debug\pryAliagaSP3.csproj.GenerateResource.cache
+C:\Users\Alumno\Source\Repos\Matiglorioso\pryAliagaSP3\pryAliagaSP3\pryAliagaSP3\obj\Debug\pryAliagaSP3.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Source\Repos\Matiglorioso\pryAliagaSP3\pryAliagaSP3\pryAliagaSP3\obj\Debug\pryAliagaSP3.exe
+C:\Users\Alumno\Source\Repos\Matiglorioso\pryAliagaSP3\pryAliagaSP3\pryAliagaSP3\obj\Debug\pryAliagaSP3.pdb
